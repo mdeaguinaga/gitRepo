@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 
-	<link href="<%=request.getContextPath()%>/CSS/aos.css" rel="stylesheet">
-	<link href="<%=request.getContextPath()%>/CSS/justToPlay.css" rel="stylesheet">
+	<link href="<%=request.getContextPath()%>/css/aos.css" rel="stylesheet">
+	<link href="<%=request.getContextPath()%>/css/justToPlay.css" rel="stylesheet">
 
 
 <title>Just To Play</title>
@@ -16,8 +16,8 @@
 
 
 
-<div class="item" data-aos="fade-up">1</div>
-<div class="item" data-aos="fade-down">2</div>
+<div class="item" data-aos="fade-up">Manuel I De Aguinaga <br> Software Developer</div>
+<div class="item" data-aos="fade-down"></div>
 <div class="item" data-aos="fade-right">3</div>
 <div class="item" data-aos="fade-left">4</div>
 
