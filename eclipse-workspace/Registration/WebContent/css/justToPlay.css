@@ -96,3 +96,21 @@ h3.mystyle {
 	font-weight: 100;
 	text-align: center;
 }
+
+p.mystyle-text {
+	font-family: sans-serif;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: black;
+	font-size: 10px;
+	text-align: center;
+}
+
+p.mystyle-text2 {
+	font-family: sans-serif;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
