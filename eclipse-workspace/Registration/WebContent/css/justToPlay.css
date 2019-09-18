@@ -1,16 +1,98 @@
 @charset "UTF-8";
 
-* {
-  box-sizing: border-box;
-}
 
 .item {
   width: 100%;
   height: 800px;
-  margin: 50px auto;
+  margin: auto ;
+  margin-bottom: 0px;
   padding-top: 200px;
-  background: #ccc;
+  text-align: center;
+  font-size: 3em;
+  
+}
+
+#grad {
+	background-color: #FFF;
+	opacity: 0.4;	
+}
+
+.first-item {
+  width: 100%;
+  height: 800px;
+  margin: auto ;
+  margin-bottom: 50px;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 3em;
+  
+}
+
+.last-item {
+  width: 100%;
+  height: 800px;
+  margin: auto ;
+  padding-top: 300px;
+  background: #333;
   text-align: center;
   color: #FFF;
   font-size: 3em;
+}
+
+
+.btn-primary{
+    color: white;
+}
+
+.backImmage{
+	
+}
+
+.jumbotron{
+ background-image: url("<%=request.getContextPath()%>/images/ccb.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+div.f1 {
+	background-image: url("../images/ccb.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+div.f2 {
+	background-image: url("../images/Manhattan-Bridge-4.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#nav {
+    list-style: none;
+    position:absolute;
+    right:50%;
+    margin-right:155px;
+    margin-top:220px;
+}
+
+p.mystyle {
+	font-family: sans-serif;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+h3.mystyle {
+	font-family: sans-serif;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: black;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
 }
